@@ -29,7 +29,7 @@ if nome_input:
         # Assicurati di avere un'immagine chiamata 'pagliaccio.jpg' nella stessa cartella
         # Oppure usa un URL di un'immagine online
         st.image("pagliaccio.jpg", caption="Il pagliaccio con la ramazza", width=400)
-        st.image("rsupa2.jpg", caption="Momento celebrazione!", width=400)
+        st.image("rsupa2.jpeg", caption="Momento celebrazione!", width=400)
     else:
         st.subheader(f"Sei un grande, {nome_input}!")
         # Immagine di una coppa (trofeo)
