@@ -28,8 +28,7 @@ if nome_input:
         st.subheader(f"Sei un gay, {nome_input}!")
         # Assicurati di avere un'immagine chiamata 'pagliaccio.jpg' nella stessa cartella
         # Oppure usa un URL di un'immagine online
-        st.image("https://www.maskworld.com/it/p/parrucca-clown-color-arcobaleno--300240?gad_source=1&gad_campaignid=22382792293&gbraid=0AAAAADv5tvVsXZGhgRhNMzInZvJm47gWR&gclid=Cj0KCQiAjJTKBhCjARIsAIMC4480zH9Wa_fBKeCJyH1EEw5iTQrStaRJhpKBwBs6wH0ODoLa6RCqoDMaAqgbEALw_wcB#mz-expanded-view-617123042144",
-                 caption="Il pagliaccio con la ramazza", width=400)
+        st.image("pagliaccio.jpg", caption="Il pagliaccio con la ramazza", width=400)
     else:
         st.subheader(f"Sei un grande, {nome_input}!")
         # Immagine di una coppa (trofeo)
