@@ -18,7 +18,7 @@ st.title("Verifica il tuo profilo")
 nome_input = st.text_input("Inserisci il tuo nome:")
 
 # Lista dei nomi "speciali" (tutti in minuscolo per il confronto)
-nomi_target = ["pierluigi", "pierluigi de rubeis", "ruspa", "de rubeis"]
+nomi_target = ["pierluigi", "pierluigi de rubeis", "ruspa", "de rubeis", "pier"]
 
 if nome_input:
     # Pulizia dell'input: togliamo spazi extra e rendiamo tutto minuscolo
